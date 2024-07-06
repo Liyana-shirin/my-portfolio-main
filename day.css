@@ -1,0 +1,365 @@
+ 
+*{
+    box-sizing:border-box;
+    margin: 0;
+}
+body {
+    background-image: url("bg7.jpg");
+  }
+
+.nav{
+    position: relative;
+    height: 15%;
+    background: #800000;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+}
+.nav{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+   font-size: larger;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+.log{
+    padding-left: 60px;
+    
+}
+
+#home{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.head-one{
+    font-size: 65px;
+    font-weight: bolder;
+    color: black;
+    padding: 100px;
+}
+.head-color{
+    color: maroon;
+}
+.head-two{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+.home-para{
+    font-size: 20px;
+    color:black;
+    padding-left: 200px;
+}
+.home-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-left i{
+    font-size: 40px;
+    color: maroon;
+}
+.home-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media{
+    width: 45%;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.social-media a{
+    text-decoration: none;
+}
+.icon-container{
+    width: 60px;
+    height: 60px;
+    border: 3px solid maroon;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+.contact-btn{
+    width: 150px;
+    height: 45px;
+    background-color: maroon;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+.icons{
+    width: 45%;
+    height: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+ .ABOUT{
+    width:auto;
+    height: 700px;
+    font-weight: bolder;
+    display: flex;
+    padding: 50px ;
+ }
+
+ p {
+    text-align: left;
+    align-items: center;
+    display: flex;
+    padding-left: 10%;
+    height: auto;
+   }
+
+   .para1{
+    font-family:Arial, Helvetica, sans-serif;
+
+   }
+
+    .abt{
+        justify-content: top;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-items: center;
+        display: flex;
+        width: 500px;
+        height: 500px;
+    }
+
+    .abt-left{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.abt-right{
+    width: 50%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#SKILL{
+    
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: larger;
+}
+.s1{
+    color: #800000;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 50px;
+}
+
+.s2{
+    color: #800000;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+}
+
+.s21{
+    font-size: larger;
+    font-style: oblique;
+    align-items:;
+
+}
+.skills-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgb(16, 15, 15);
+}
+
+.skill2{
+    height: 80%;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill-container1{
+    width: 40%;
+    height: 50%;
+    background-color: wheat;
+    border-radius: 40px;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+}
+
+.skill-container2{
+    width: 40%;
+    height: 50%;
+    background-color: wheat;
+    border-radius: 50px;
+}
+
+.skill-sub i{
+    font-size: 100px;
+}
+.skill-para{
+    font-size: 20px;
+}
+.skill-icon-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#project{
+    /* padding-top: 100px; 
+    margin-top: -100px; */
+    width: 100%;
+    height: 100vh;
+    background-color: #001005;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-head{
+    font-size: 65px;
+    font-weight: bolder;
+    color: rgb(16, 15, 15);
+    text-align: center;
+}
+
+.project-container{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 180px;
+    margin-left: 150px;
+}
+.pro1{
+    border-radius: 25%;
+}
+
+.pro1:hover{
+    transform: scale(1.2);
+
+}
+.pro2:hover{
+    transform: scale(1.2);
+}
+
+.project-sub a{
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+#CONTACT{
+    color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    
+.contact1{
+    font-size: 65px;
+    font-weight: bolder;
+    color: black
+}
+.contact-form{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-input{
+    width: 90%;
+    height: 15%;
+    padding-left: 20px;
+    border-radius: 30px;
+}
+#message{
+    width: 90%;
+    height: 35%;
+    border-radius: 30px;
+    outline: none;
+}
+#button{
+    width: 200px;
+    height: 45px;
+    background-color: maroon;
+    border-radius: 25px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.contact-btn:hover{
+    transform: scale(1.2);
+}
+.navbar-items a:hover{
+    color:maroon;
+}
+.icon-container:hover{
+    background-color: maroon;
+    transform: scale(1.2);
+}
+.icon-container i:hover{
+    color: rgb(153, 42, 42);
+}
+.contact-form input::placeholder{
+    font-size: 20px;
+}
+#button:hover{
+    transform: scale(1.2);
+}

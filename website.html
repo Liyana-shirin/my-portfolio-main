@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="x-uA-compatible" content="IE=edge">
+
+<head>
+    <title> my personal portfolio website </title>
+    <link rel="stylesheet" href="day.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "ktbVv7N29izxbM9ZV",
+      });
+   })();
+</script>
+<script src="website.js"></script>
+</head>
+
+<body>
+    <nav>
+    <div class="nav">
+            <img class="log" src="logo1.png" alt="" length="15%" width="15%">
+
+
+            <ul>
+                <li><a href="#ABOUT"> ABOUT </a></li>
+                <li><a href="#SKILL">SKILL </a></li>
+                <li><a href="#PROJECT">PROJECT </a></li>
+                <li><a href="#CONTACT">CONTACT </a></li>
+            </ul>
+    </div>
+</nav>
+
+    <div id="home">
+        <div class="home-left">
+            <h1 class="head-one">Hi, It's <br><span class="head-color">Liyana Shirin</span></h1>
+            <h2 class="head-two">I'm a <span class="head-color">Full Stack Developer</span></h2>
+            <p class="home-para">Hii! i'm Liyana <br> a passionate newcomer to the world of software development
+                with big dreams of becoming a full-stack developer.</p>
+            <div class="social-media">
+                <a href="">
+                    <div class="icon-container"><i class='bx bxl-instagram-alt'></i></div>
+                </a>
+                <a href="https://www.instagram.com/liyana_hani_?igsh=a2x1Z2Z3N3E2dWtu">
+                    <div class="icon-container"><i class='bx bxl-github'></i></div>
+                </a>
+                <a href="https://github.com/Liyana-shirin">
+                    <div class="icon-container"><i class='bx bxl-linkedin-square'></i></div>
+                </a>
+            </div>
+            <a href="#CONTACT"><button class="contact-btn">Contact</button></a>
+        </div>
+        <div class="home-right">
+            <img id="img1" src="liy.jpeg" alt="" width="400" height="300">
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="ABOUT">
+      
+        <div class="abt-right">
+            <img src="liy.jpeg" alt="" width="400" height="300">        
+        </div>
+        <div class="abt-left">
+
+            <div class="abt">
+                <p class="para1">About Me<br><br>
+                    I am a technology enthusiast with a Bachelor of Technology in Information Technology from MEA
+                    Engineering College, Perinthalmanna.
+                    My education and projects have equipped me with a solid foundation in programming languages such as
+                    C, Python, Java, SQL, and HTML.
+                    I have demonstrated strong critical thinking, time management, adaptability, and a fast learning
+                    ability. My project experience includes developing a
+                    loan prediction system using machine learning models, showcasing my proficiency in data
+                    preprocessing, feature engineering, and model selection.
+                    I have completed a Python internship at Nest Cyber Campus, where I contributed to automating data
+                    processes and optimizing the codebase. I am fluent in English, Malayalam,
+                    and Tamil and hold certifications and memberships from IEEE and Cognizant. I am eager to leverage my
+                    skills and experience in a dynamic work environment to contribute
+                    to organizational success and personal growth.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="SKILL">
+
+        <h1 class="skills-head">skill</h1>
+        <div class="skill2">
+            <div class="skill-container1">
+                <h5 class="s1">Technical skills</h5>
+                <ul class="s21">
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                    <li>C proramming</li>
+                </ul>
+            </div>
+
+            <div class="skill-container2">
+                <h5 class="s2">Soft skills</h5>
+                <ul class="s21">
+                    <li>Time management</li>
+                    <li>critical thinking</li>
+                    <li>Adaptability</li>
+                    <li>Fast learner</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div id="PROJECT">
+        <h1 class="project-head">project</h1>
+        <div class="project-container">
+            <div class="pro1">
+                <a href="loan prediction group 4.pdf"><img src="loan2.jpeg" alt=""
+                        style="width:300px;height:200px;border-radius: 10%;border: solid;border-color: maroon;border-width: 5px;"></a>
+            </div>
+            <div class="pro2">
+                <a href="DPS_GRP_6_Final (9).pdf"><img src="project 2.jpg" alt=""
+                        style="width:300px;height:200px;border-radius: 10%;border: solid;border-color: maroon;border-width: 5px;"></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div id="CONTACT">
+        <h1 class="contact1">contact</h1>
+
+        <div class="contact-form">
+            <input type="text" placeholder="Full name" id="name" class="contact-input"><br><br>
+            <input type="email" placeholder="email" id="email" class="contact-input"><br><br>
+            <input type="subject" placeholder="subject" id="subject" class="contact-input"><br><br>
+
+            <textarea id="message"></textarea><br><br>
+            <button id="button"onclick="sendmail()">send message </button>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
